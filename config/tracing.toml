@@ -1,0 +1,6 @@
+# Enable uploads after setting LANGSMITH_API_KEY in your terminal.
+# LANGSMITH_TRACING=true also enables tracing without editing this file.
+enabled = true
+project = 'codebase-bug-agent'
+endpoint = 'https://api.smith.langchain.com'
+api_key_env = 'LANGSMITH_API_KEY'

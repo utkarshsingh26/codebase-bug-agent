@@ -1,0 +1,5 @@
+# Set these to your local clone and any public GitHub repo (your fork or upstream).
+# repo_url accepts a repository URL, /issues page, or full issue URL.
+# Single quotes keep Windows backslashes literal in TOML.
+local_repo = 'D:\httpx' # Example: 'D:\repos\my-project'
+repo_url = 'https://github.com/encode/httpx' # Example: 'https://github.com/owner/my-project'

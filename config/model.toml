@@ -1,0 +1,11 @@
+# Uses one of your already installed models; no new model download is required.
+model = 'llama3:latest'
+base_url = 'http://localhost:11434/v1'
+
+# For a hosted service, change base_url/model and put the key in this environment
+# variable. Keep the key itself out of this file. Local Ollama needs no key.
+api_key_env = 'LLM_API_KEY'
+max_steps = 12
+
+# Constrain responses to JSON actions. Disable only if a hosted endpoint lacks JSON mode.
+json_mode = true

@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "codebase-bug-agent"
+version = "0.1.0"
+description = "Read public GitHub issues and investigate a local clone with any compatible model"
+requires-python = ">=3.12"
+dependencies = []
+
+[project.optional-dependencies]
+tracing = ["langsmith>=0.3,<1"]
+
+[project.scripts]
+bug-agent = "bug_agent.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["bug_agent*"]
